@@ -1,0 +1,46 @@
+/* CSS RESET
+=================================== */
+* { box-sizing: border-box; transition: all 0.5s ease-in-out; }
+html, body, h1, h2, p { padding: 0; margin: 0; font-family: sans-serif; }
+h5 { font-weight: normal; font-size: 18px; }
+
+.site-header,
+.site-content,
+.site-navigation,
+.site-adspace,
+.site-footer {
+  padding: 15px;
+  color: white;
+}
+
+.site-header { background: #1abc9c; }
+.site-content {
+  background: #3dfdf498db;
+}
+.site-navigation { background: #9b59b6; }
+.site-adspace { background: #34495e; }
+.site-footer { background: #f1c40f; }
+
+.site {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*min-height: 100vh;*/
+}
+
+.site-body {
+  /*display: flex;*/
+  /*flex: 1 0 auto;*/
+}
+
+.site-content {
+  /*flex: 1 0 auto;*/
+}
+
+.site-navigation,
+.site-adspace {
+  /*flex: 0 0 200px;*/
+}
+
+.site-navigation {
+  /*order: -1;*/
+}

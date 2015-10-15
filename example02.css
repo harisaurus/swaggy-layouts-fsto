@@ -1,0 +1,25 @@
+/* CSS RESET
+=================================== */
+* { box-sizing: border-box; transition: all 0.5s ease-in-out; }
+html, body, h1, h2, p { padding: 0; margin: 0; font-family: sans-serif; }
+html, body { height: 100%; }
+
+
+
+.container {
+  background: #34495e;
+  height: 100%;
+  /*display: flex;*/
+
+  /* alignment on main axis */
+  /*justify-content: center;*/
+
+  /* alignment on cross axis */
+  /*align-items: center;*/
+}
+
+.item {
+  background: #1abc9c;
+  width: 50%;
+  padding: 20px;
+}
